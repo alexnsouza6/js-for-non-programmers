@@ -1,0 +1,17 @@
+.aws-sld {
+    --slider-height-percentage: 50%;
+}
+
+.aws-sld__content {
+    background-color: #B12;
+}
+
+.aws-content-box {
+    height: 100%;
+    margin: 0 auto;
+    width: 60%;
+
+    &.larger {
+        width: 80%;
+    }
+}
