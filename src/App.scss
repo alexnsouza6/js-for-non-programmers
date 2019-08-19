@@ -1,9 +1,47 @@
-.aws-sld {
-    --slider-height-percentage: 50%;
+@font-face {
+    font-family: 'Bold Font';
+    src: url('./fonts/theboldfont.ttf');
+}
+
+@font-face {
+    font-family: 'Big Noodle';
+    src: url('./fonts/big_noodle_titling.ttf');
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    font-family: 'Bold Font';
+}
+
+p, li {
+    color: white;
+    line-height: 1.3;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    font-family: 'Bold Font';
+}
+
+.aws-startup-screen {
+    background-color: #f7e018;
+    background-image: url('./images/js-main.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
 
 .aws-sld__content {
-    background-color: #B12;
+    background-image: url('./images/js-background.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+
+    .js-image {
+        right: 15px;
+        bottom: 15px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
 }
 
 .aws-content-box {
