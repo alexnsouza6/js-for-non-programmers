@@ -1,9 +1,5 @@
 import React from 'react';
-
 import { jsMainImage } from './Shared';
-
-
-
 
 export const whatIsJs = (
     <div className="aws-content-box">
